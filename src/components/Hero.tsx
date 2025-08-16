@@ -33,10 +33,8 @@ export const Hero = ({ name, location, email, github, linkedin, objective, profi
         </div>
 
         {/* Name with glowing effect */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 glow-text">
-          <span className="bg-gradient-to-r from-neon-cyan via-neon-green to-neon-purple bg-clip-text text-transparent">
-            {name}
-          </span>
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 text-neon-cyan glow-text">
+          {name}
         </h1>
 
         {/* Subtitle with typing effect */}
