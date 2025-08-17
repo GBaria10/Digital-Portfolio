@@ -180,7 +180,7 @@ export const Hero = ({ name, location, email, github, linkedin, objective, profi
                   </div>
                   <div className="flex items-center gap-3">
                     <span className="text-neon-green">CLEARANCE:</span>
-                    <span className="text-neon-purple">LEVEL_7_CYBER_OPS</span>
+                    <span className="text-neon-purple">Entry Level Professional</span>
                   </div>
                 </div>
               </div>
