@@ -52,6 +52,15 @@ export const Footer = ({ interests, languages }: FooterProps) => {
             © 2025 Gaourang Baria. Built with{" "}
             <span className="text-neon-cyan">React</span> &{" "}
             <span className="text-neon-purple">TypeScript</span>
+            <span className="text-neon-cyan/80 mx-1">•</span>
+            <a
+              href="https://github.com/GBaria10/Digital-Portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-2 py-1 bg-neon-cyan/10 border border-neon-cyan/30 rounded-full text-sm text-neon-cyan hover:bg-neon-cyan/20 hover:underline transition"
+            >
+              View Source
+            </a>
           </p>
         </div>
       </div>
