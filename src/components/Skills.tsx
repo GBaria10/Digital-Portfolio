@@ -64,15 +64,15 @@ export const Skills = ({ skills }: SkillsProps) => {
                 </CardHeader>
                 <CardContent>
                   <div className="flex flex-wrap gap-2">
-                    {category.skills.map((skill) => (
-                      <Badge
-                        key={skill}
-                        variant="outline"
-                        className={`border-${category.color}/30 text-${category.color} bg-${category.color}/10 hover:bg-${category.color}/20 transition-colors`}
-                      >
-                        {skill}
-                      </Badge>
-                    ))}
+                     {category.skills.map((skill) => (
+                       <Badge
+                         key={skill}
+                         variant="outline"
+                         className={`border-${category.color}/30 text-${category.color} bg-${category.color}/10 hover:bg-${category.color}/20 transition-colors text-sm`}
+                       >
+                         {skill}
+                       </Badge>
+                     ))}
                   </div>
                 </CardContent>
               </Card>
