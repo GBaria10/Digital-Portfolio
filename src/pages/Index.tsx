@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 
 const resumeData = {
   name: "Gaourang Baria",
-  location: "Jamnagar, Gujarat",
+  location: "Ahmedabad, Gujarat",
   email: "gaourang.baria22@st.niituniversity.in",
   github: "https://github.com/GBaria10",
   linkedin: "https://www.linkedin.com/in/gaourangbaria/",
